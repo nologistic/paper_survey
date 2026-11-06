@@ -1,0 +1,20 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ---- 全部运行产物（本仓库只发布代码与文档）----
+data/
+
+# ---- 运行日志与抓取中间快照 ----
+*.log
+*.html
+
+# ---- 内部资料（未发表研究的调研报告，不公开）----
+relevance_report.md
+private/
+
+# ---- 系统 ----
+.DS_Store
